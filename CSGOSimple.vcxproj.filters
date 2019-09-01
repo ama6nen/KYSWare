@@ -1,0 +1,698 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="headers\imgui">
+      <UniqueIdentifier>{be04c48c-66c1-4221-ac11-38f6bab82130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\features">
+      <UniqueIdentifier>{2bc982e4-598c-49fb-ad20-458d3b3bc2a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\features\hvh">
+      <UniqueIdentifier>{d7e5fd08-dff3-4f51-a47d-414a227771f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\features\visuals">
+      <UniqueIdentifier>{88aeb30a-ddd3-40f3-ae47-d8d4d00f4e85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\features\misc">
+      <UniqueIdentifier>{47611a69-7504-453c-bf2d-b8022f5953c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implementations">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="implementations\imgui">
+      <UniqueIdentifier>{162aa2f8-15b9-4b39-a283-b120ebdf8013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implementations\features">
+      <UniqueIdentifier>{69bb20b4-f120-4f70-8694-cf3aaa9c085c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\sdk">
+      <UniqueIdentifier>{532bd2d3-56d4-4b80-9705-133b9cef34df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\sdk\interfaces">
+      <UniqueIdentifier>{9864f73d-9310-4a42-851d-c720beee9398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\sdk\math">
+      <UniqueIdentifier>{15bd22d3-e046-4d4a-a3e1-b8b07afe5001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\sdk\misc">
+      <UniqueIdentifier>{2d5b88f2-82d0-4341-8742-104bf7ad017d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\sdk\utl">
+      <UniqueIdentifier>{73d052cf-3a01-48e8-b0c5-5c16989b0754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\main">
+      <UniqueIdentifier>{b100614c-5adf-4d7b-9a30-b06d760260e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\misc">
+      <UniqueIdentifier>{b6240063-f8d5-47c5-a87f-840d8d7cd122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implementations\sdk">
+      <UniqueIdentifier>{edb96b28-881c-4810-bf58-6ef7ed18cd5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implementations\main">
+      <UniqueIdentifier>{8d2369b4-5c4a-4e55-9ba2-6084d0ede665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implementations\misc">
+      <UniqueIdentifier>{4542275a-d0f6-4035-b121-9d97c853e49e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implementations\features\hvh">
+      <UniqueIdentifier>{10e736cf-8770-4db5-a90c-d180fc16273d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implementations\features\misc">
+      <UniqueIdentifier>{0f7e7c69-3090-4f52-87f7-9d983ae0839d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implementations\features\visuals">
+      <UniqueIdentifier>{48280284-f69f-46f0-930d-5cbb0853c8da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implementations\sdk\math">
+      <UniqueIdentifier>{7260604a-bb00-403b-bf88-ce886ca734e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implementations\sdk\utl">
+      <UniqueIdentifier>{53383c9c-c512-4db5-bfc4-07940631dbc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implementations\sdk\misc">
+      <UniqueIdentifier>{340ea06c-a2a4-4b98-bcd9-a874402bebcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\sdk\steam">
+      <UniqueIdentifier>{af1c2910-862a-42af-a260-dab369640b68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto">
+      <UniqueIdentifier>{52f4f584-3ab2-426e-a9b3-2273d73a7a5b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="valve_sdk\csgostructs.cpp">
+      <Filter>implementations\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="valve_sdk\sdk.cpp">
+      <Filter>implementations\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\directx9\imgui_impl_dx9.cpp">
+      <Filter>implementations\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>implementations\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>implementations\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="valve_sdk\netvars.cpp">
+      <Filter>implementations\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>implementations\main</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks.cpp">
+      <Filter>implementations\main</Filter>
+    </ClCompile>
+    <ClCompile Include="options.cpp">
+      <Filter>implementations\main</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>implementations\main</Filter>
+    </ClCompile>
+    <ClCompile Include="helpers\math.cpp">
+      <Filter>implementations\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="spoofedconvar.cpp">
+      <Filter>implementations\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="helpers\utils.cpp">
+      <Filter>implementations\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>implementations\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="features\bhop.cpp">
+      <Filter>implementations\features\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="features\chams.cpp">
+      <Filter>implementations\features\visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="dlights.cpp">
+      <Filter>implementations\features\visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="events.cpp">
+      <Filter>implementations\features\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="freecam.cpp">
+      <Filter>implementations\features\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="features\glow.cpp">
+      <Filter>implementations\features\visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="features\visuals.cpp">
+      <Filter>implementations\features\visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="resolver.cpp">
+      <Filter>implementations\features\hvh</Filter>
+    </ClCompile>
+    <ClCompile Include="rcs.cpp">
+      <Filter>implementations\features\hvh</Filter>
+    </ClCompile>
+    <ClCompile Include="cvar_cheats.cpp">
+      <Filter>implementations\features\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="prediction.cpp">
+      <Filter>implementations\features\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="valve_sdk\misc\characterset.cpp">
+      <Filter>implementations\sdk\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="valve_sdk\misc\checksum_crc.cpp">
+      <Filter>implementations\sdk\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="valve_sdk\misc\checksum_md5.cpp">
+      <Filter>implementations\sdk\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="helpers\vfunc_hook.cpp">
+      <Filter>implementations\sdk\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="helpers\input.cpp">
+      <Filter>implementations\sdk\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="valve_sdk\misc\convar.cpp">
+      <Filter>implementations\sdk\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="valve_sdk\misc\color.cpp">
+      <Filter>implementations\sdk\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="valve_sdk\misc\utlbuffer.cpp">
+      <Filter>implementations\sdk\utl</Filter>
+    </ClCompile>
+    <ClCompile Include="valve_sdk\misc\utlstring.cpp">
+      <Filter>implementations\sdk\utl</Filter>
+    </ClCompile>
+    <ClCompile Include="valve_sdk\math\vector2d.cpp">
+      <Filter>implementations\sdk\math</Filter>
+    </ClCompile>
+    <ClCompile Include="valve_sdk\math\vector4d.cpp">
+      <Filter>implementations\sdk\math</Filter>
+    </ClCompile>
+    <ClCompile Include="valve_sdk\math\vmatrix.cpp">
+      <Filter>implementations\sdk\math</Filter>
+    </ClCompile>
+    <ClCompile Include="fake_latency.cpp">
+      <Filter>implementations\features\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdperson.cpp">
+      <Filter>implementations\features\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="smoke.cpp">
+      <Filter>implementations\features\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="sky_changer.cpp">
+      <Filter>implementations\features\visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="econitem.cpp">
+      <Filter>implementations\sdk\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\base_gcmessages.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\cstrike15_gcmessages.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\cstrike15_usermessages.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\econ_gcmessages.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\engine_gcmessages.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\fatdemo.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\gcsdk_gcmessages.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\gcsystemmsgs.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\netmessages.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\network_connection.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\steamdatagram_messages.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\steammessages.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="proto_cheats.cpp">
+      <Filter>implementations\features\misc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="valve_sdk\sdk.hpp">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\directx9\imgui_impl_dx9.h">
+      <Filter>headers\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>headers\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>headers\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>headers\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\csgostructs.hpp">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\netvars.hpp">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="features\chams.hpp">
+      <Filter>headers\features\visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="dlights.h">
+      <Filter>headers\features\visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="features\glow.hpp">
+      <Filter>headers\features\visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="features\visuals.hpp">
+      <Filter>headers\features\visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="features\bhop.hpp">
+      <Filter>headers\features\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="events.h">
+      <Filter>headers\features\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="freecam.h">
+      <Filter>headers\features\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="hitmarker.h">
+      <Filter>headers\features\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="flashlight.h">
+      <Filter>headers\features\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.hpp">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\utils.hpp">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\vfunc_hook.hpp">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\math.hpp">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="cvar_cheats.h">
+      <Filter>headers\features\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="resolver.h">
+      <Filter>headers\features\hvh</Filter>
+    </ClInclude>
+    <ClInclude Include="rcs.h">
+      <Filter>headers\features\hvh</Filter>
+    </ClInclude>
+    <ClInclude Include="autowall.h">
+      <Filter>headers\features\hvh</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\math\vector.hpp">
+      <Filter>headers\sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\appsystem.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\baseclientdll.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\icliententity.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\icliententitylist.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\iclientmode.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\iclientnetworkable.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\iclientrenderable.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\iclientthinkable.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\iclientunknown.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\icollideable.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\ienginesound.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\imaterialsystem.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\ipanel.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\iphysics.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\irenderview.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\isurface.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\math\vmatrix.hpp">
+      <Filter>headers\sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\math\qangle.hpp">
+      <Filter>headers\sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\math\vector2d.hpp">
+      <Filter>headers\sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\math\vector4d.hpp">
+      <Filter>headers\sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\BaseHandle.hpp">
+      <Filter>headers\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\characterset.hpp">
+      <Filter>headers\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\checksum_crc.hpp">
+      <Filter>headers\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\checksum_md5.hpp">
+      <Filter>headers\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\ClientClass.hpp">
+      <Filter>headers\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\Color.hpp">
+      <Filter>headers\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\Convar.hpp">
+      <Filter>headers\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\CClientState.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\CInput.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\CUserCmd.hpp">
+      <Filter>headers\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\EHandle.hpp">
+      <Filter>headers\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\Enums.hpp">
+      <Filter>headers\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\GlobalVars.hpp">
+      <Filter>headers\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\glow_outline_effect.hpp">
+      <Filter>headers\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IConVar.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\ICvar.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IEngineTrace.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IGameEventmanager.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\IHandleEntity.hpp">
+      <Filter>headers\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IMDLCache.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IMoveHelper.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IPrediction.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IVEffects.h">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IVDebugOverlay.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IVEngineClient.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IViewRender.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IViewRenderBeams.h">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IVModelInfoClient.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IVModelRender.hpp">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="MemAlloc.h">
+      <Filter>headers\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\platform.hpp">
+      <Filter>headers\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\Recv.hpp">
+      <Filter>headers\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>headers\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>headers\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>headers\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\Studio.hpp">
+      <Filter>headers\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\UtlVector.hpp">
+      <Filter>headers\sdk\utl</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\UtlBuffer.hpp">
+      <Filter>headers\sdk\utl</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\UtlMemory.hpp">
+      <Filter>headers\sdk\utl</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\UtlString.hpp">
+      <Filter>headers\sdk\utl</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\vfunc.hpp">
+      <Filter>headers\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.hpp">
+      <Filter>headers\main</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks.hpp">
+      <Filter>headers\main</Filter>
+    </ClInclude>
+    <ClInclude Include="options.hpp">
+      <Filter>headers\main</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\input.hpp">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing.h">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="spoofedconvar.h">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="prediction.h">
+      <Filter>headers\features\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="fake_latency.h">
+      <Filter>headers\features\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdperson.h">
+      <Filter>headers\features\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="smoke.h">
+      <Filter>headers\features\visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="hotkey.h">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="inputsystem.h">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sky_changer.h">
+      <Filter>headers\features\visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\isteamapplist.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\isteamapps.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\isteamappticket.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\isteamclient.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\isteamfriends.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\isteamgamecoordinator.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\isteamgameserver.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\isteamgameserverstats.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\isteamhtmlsurface.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\isteamhttp.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\isteaminventory.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\isteammatchmaking.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\isteamnetworking.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\isteamparentalsettings.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\isteamremotestorage.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\isteamscreenshots.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\isteamugc.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\isteamuser.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\isteamuserstats.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\isteamutils.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\isteamvideo.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\matchmakingtypes.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\steam_api.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\steam_api_flat.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\steam_api_internal.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\steam_gameserver.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\steamclientpublic.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\steamencryptedappticket.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\steamhttpenums.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\steamps3params.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\steamtypes.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\steam\steamuniverse.hpp">
+      <Filter>headers\sdk\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="econitem.h">
+      <Filter>headers\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\base_gcmessages.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\cstrike15_gcmessages.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\cstrike15_usermessages.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\econ_gcmessages.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\engine_gcmessages.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\fatdemo.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\gcsdk_gcmessages.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\gcsystemmsgs.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\netmessages.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\network_connection.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\steamdatagram_messages.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\steammessages.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto_cheats.h">
+      <Filter>headers\features\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy_importer.h">
+      <Filter>headers\misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
